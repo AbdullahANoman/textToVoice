@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --watch src/db.json --port 4000"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "axios": "^1.5.1",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "json-server": "^0.17.4",
+    "next": "^13.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "text-to-speech": "^1.0.10"
   },
   "devDependencies": {
     "autoprefixer": "^10",
