@@ -54,8 +54,8 @@ const AudioGenerator = () => {
               className="w-full py-2 px-2 mr-4 bg-[#a48bf0] text-white rounded-sm my-2 focus:outline-none"
             >
               <option value="en">English</option>
+              <option value="es">Spanish</option>
               <option value="fr">French</option>
-              {/* Add more language options as needed */}
             </select>
           </div>
           {!audioUrl && (
