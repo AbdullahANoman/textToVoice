@@ -22,7 +22,7 @@ const AudioGenerator = () => {
       console.log(result);
       setLoading(false);
     } catch (error) {
-      toast.error(error.message);
+      // toast.error(error.message);
       setLoading(false);
     }
   };
